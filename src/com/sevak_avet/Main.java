@@ -14,7 +14,7 @@ public class Main {
 		Encryption enc = new Encryption(reader.readLine());
 		System.out.println("Encrypted: " + enc.getEncText());
 		
-		Decryption deс = new Decryption("16 50 42 35 38 52 68 66 46 42 50 72"); // Привет, мир!
+		Decryption deс = new Decryption(reader.readLine());
 		System.out.println("Decrypted: " + deс.getDescText());
 	}
 }
